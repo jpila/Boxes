@@ -18,5 +18,6 @@
 //Parameters for methods
 -(float)box:(float) boxHeight :(float) boxWidth :(float) boxLength;
 -(float)Volume:box;
+-(BOOL)fitBox:(Boxes *) firstbox ;
 
 @end

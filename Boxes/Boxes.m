@@ -21,5 +21,12 @@
     
 }
 
+-(BOOL)fitBox:(Boxes *) otherbox {
+    int firstVolume = [self Volume:otherbox];
+    int secondvolume =[otherbox Volume:otherbox];
+    int timesfit = (firstVolume/secondvolume);
+    NSLog(@"%i",timesfit);
+    return 0;
+}
 
 @end
